@@ -1,0 +1,28 @@
+{
+ "rat": {
+  "source": "triposr",
+  "yaw": 35
+ },
+ "ox": {
+  "source": "triposr"
+ },
+ "tiger": {
+  "source": "triposr"
+ },
+ "dragon": {
+  "source": "triposr"
+ },
+ "goat": {
+  "source": "triposr"
+ },
+ "monkey": {
+  "source": "triposr",
+  "yaw": 30
+ },
+ "dog": {
+  "source": "triposr"
+ },
+ "pig": {
+  "source": "triposr"
+ }
+}

@@ -1,0 +1,38 @@
+{
+ "rat": {
+  "yaw": 45
+ },
+ "ox": {
+  "yaw": 45
+ },
+ "tiger": {
+  "yaw": 45
+ },
+ "rabbit": {
+  "yaw": 45
+ },
+ "dragon": {
+  "yaw": 45
+ },
+ "snake": {
+  "yaw": 45
+ },
+ "horse": {
+  "yaw": 45
+ },
+ "goat": {
+  "yaw": 45
+ },
+ "monkey": {
+  "yaw": 45
+ },
+ "rooster": {
+  "yaw": 45
+ },
+ "dog": {
+  "yaw": 45
+ },
+ "pig": {
+  "yaw": 45
+ }
+}
