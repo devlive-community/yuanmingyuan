@@ -1,0 +1,114 @@
+# 圆明三园 · OSM 真实水系版（v3）
+#
+# 与其他版本的区别：湖泊不再是示意矩形，而是 OpenStreetMap 实测水域多边形
+# （© OSM 贡献者，ODbL；经 tools/osm_to_terrain.py 提取简化，S-028）。
+# 各景按 OSM 兴趣点锚点摆放（位置为 POI 近似，非实测殿址）：
+#   - 正大光明：大宫门内、扇面湖（water_210654673，西南）之北
+#   - 九洲清晏：后湖（真实轮廓）南岸前
+#   - 勤政亲贤：正大光明之东（相对摆位）
+#   - 万方安和：其真实兴趣点（后湖西侧约 180 m）
+#   - 方壶胜境：福海（真实轮廓，28.75 公顷）东北岸，三亭伸入湖中
+#   - 含经堂：长春园中部（示意摆位，真实锚点未获）
+#   - 正觉寺：绮春园正宫门西（示意摆位）
+# 工作假设：景间距与殿址精度（S-028）；前湖未单独建模（留白即岸）。
+garden:
+  id: sanyuan_osm
+  name: 圆明三园（OSM 水系）
+  scenes:
+    - ref: ../scenes/zhengda_guangming.yaml
+      x_cm: 41000
+      y_cm: 45000
+    - ref: ../scenes/jiuzhou_qingyan.yaml
+      x_cm: 41000
+      y_cm: 65500
+    - ref: ../scenes/qinzheng_qinxian.yaml
+      x_cm: 47100
+      y_cm: 45000
+    - ref: ../scenes/wanfang_anhe.yaml
+      x_cm: 10100
+      y_cm: 92900
+    - ref: ../scenes/fanghu_shengjing.yaml
+      x_cm: 140000
+      y_cm: 155000
+    - ref: ../scenes/hanjingtang.yaml
+      x_cm: 190000
+      y_cm: 130000
+    - ref: ../scenes/zhengjuesi.yaml
+      x_cm: 55000
+      y_cm: 5000
+    - ref: ../scenes/haiyantang.yaml       # 原点对齐 OSM「蓄水楼」POI（node 494772256）
+      x_cm: 170500
+      y_cm: 163004
+    - ref: ../scenes/yuanyingguan_dashuifa.yaml   # 原点对齐 OSM「大水法」POI（node 269720154）
+      x_cm: 180106
+      y_cm: 165439
+    - ref: ../scenes/pengdao_yaotai.yaml   # 福海中央主岛（岛心≈福海质心）
+      x_cm: 120010
+      y_cm: 138253
+    - ref: ../scenes/zaoshen_yude.yaml     # 福海西岸南侧（朝东）
+      x_cm: 78500
+      y_cm: 115000
+      rotation_deg: 90
+    - ref: ../scenes/pinghu_qiuyue.yaml    # 福海北岸（朝北临湖）
+      x_cm: 105000
+      y_cm: 164800
+      rotation_deg: 180
+    - ref: ../scenes/jiexiu_shanfang.yaml  # 福海东南岸（朝西）
+      x_cm: 151500
+      y_cm: 107000
+      rotation_deg: 270
+    - ref: ../scenes/hanxu_langjian.yaml   # 福海东岸（朝西，北邻方壶）
+      x_cm: 151200
+      y_cm: 130000
+      rotation_deg: 270
+    - ref: ../scenes/jiajing_mingqin.yaml  # 福海南岸中部（桥亭朝北临湖）
+      x_cm: 120000
+      y_cm: 88000
+      rotation_deg: 180
+    - ref: ../scenes/biedong_tiantian.yaml # 福海东南隅山水间（朝西北）
+      x_cm: 152000
+      y_cm: 92000
+      rotation_deg: 315
+    - ref: ../scenes/quyuan_fenghe.yaml   # 福海西岸北部（九孔桥南北向）
+      x_cm: 79000
+      y_cm: 128000
+      rotation_deg: 90
+    - ref: ../scenes/ciyun_puhu.yaml      # 后湖正北（朝南临湖）
+      x_cm: 39400
+      y_cm: 94800
+      rotation_deg: 0
+    - ref: ../scenes/shangtian_guang.yaml # 后湖北岸，慈云之西（朝南）
+      x_cm: 33000
+      y_cm: 94200
+      rotation_deg: 0
+    - ref: ../scenes/tantan_dangdang.yaml # 后湖西岸（朝东临湖）
+      x_cm: 26200
+      y_cm: 81700
+      rotation_deg: 90
+    - ref: ../scenes/xinghua_chunjuan.yaml # 后湖西北（杏花春馆，朝南）
+      x_cm: 25500
+      y_cm: 96500
+      rotation_deg: 0
+    - ref: ../scenes/ruyu_hangjin.yaml    # 九洲清晏西，东临后湖（朝东）
+      x_cm: 32000
+      y_cm: 73000
+      rotation_deg: 90
+    - ref: ../scenes/louyue_kaiyun.yaml   # 后湖东南岸（朝西临湖）
+      x_cm: 52200
+      y_cm: 92000
+      rotation_deg: 270
+    - ref: ../scenes/tianran_tuhua.yaml   # 后湖东岸，镂月开云北（朝西临湖）
+      x_cm: 52200
+      y_cm: 81000
+      rotation_deg: 270
+    - ref: ../scenes/bitong_shuyuan.yaml  # 后湖东北角（朝南）
+      x_cm: 52200
+      y_cm: 94500
+      rotation_deg: 0
+  terrain:
+    file: ../terrain/water_polygons.json
+    names:
+      - 福海
+      - 后湖
+      - 方河
+      - water_210654673

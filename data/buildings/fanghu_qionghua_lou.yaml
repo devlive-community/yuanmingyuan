@@ -1,0 +1,20 @@
+# 琼华楼（北五楹，二层楼）· 方壶胜境正殿后楼
+# 依据：正殿二层楼宇前后各五楹，北为琼华楼（research-fanghu-shengjing.md 2.2）
+building:
+  id: fanghu_qionghua_lou
+  name: 琼华楼
+  grade: 大式
+  doukou_grade: 8
+  doukou_cun: 2.5      # 工作假设（S-027）
+  bays: 5              # 后五楹（medium）
+  depth_bays: 2
+  bay_brackets: 4
+  depth_brackets: 3
+  roof: 卷棚歇山        # 工作假设（S-027）
+  platform_height_chi: 2.0   # 工作假设（S-027）
+  stories: 2           # 二层楼宇（medium 记载；几何为通柱体量＋腰檐近似）
+  evidence:
+    - source: 圆明园研究/书格图咏转录——北为琼华楼（二层楼宇后五楹）
+      confidence: medium
+    - source: 工作假设——斗口、屋顶、台基高、楼层体量表达（S-027）
+      confidence: low

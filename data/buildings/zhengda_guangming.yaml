@@ -1,0 +1,41 @@
+# 正大光明殿 · 史料驱动参数表（圆明园四十景之一，图咏第 1 景）
+# 规则：每项参数挂 evidence；工作假设显式标注；未知项不填。
+# 完整证据表、两说并列与缺档清单：docs/sources/research-zhengda-guangming.md
+building:
+  id: zhengda_guangming
+  name: 正大光明殿
+  grade: 大式
+  doukou_grade: 7
+  doukou_cun: 3.0        # 工作假设（S-016）：无本殿斗口记载
+  bays: 7                # 七楹 —— 《日下旧闻考》卷八十「正大光明殿七楹」
+  depth_bays: 3          # 两说并存，取「三间＋四面围廊」（S-017），待样式雷裁定
+  bay_brackets: 6        # 平身科数无记载；按七间殿通例取 6（构成明间 67 斗口，S-009 公式待核）
+  depth_brackets: 4      # 同上（S-010）
+  roof: 卷棚歇山          # 单檐卷棚歇山（管理处论文：「十檩单檐灰瓦卷棚歇山顶」）
+  platform_height_chi: 3.5  # 工作假设（S-016）：与西人 4 法尺/4 英尺≈1.22–1.32 m 相容
+  moon_platform: true    # 月台（管理处论文 2011，medium）
+  stairs_flights: 3      # 南出三路（同上）
+  stairs_steps: 9        # 九级（同上）
+  corridor: surround     # 「三间＋四面围廊」（S-017）：装修退至金柱一线
+  bracket_set: 五踩       # 乾隆朝「复杂斗栱」有据（medium）；踩数无记载，五踩为工作假设（S-040）
+  evidence:
+    - source: 《钦定日下旧闻考》卷八十 p.344「出入贤良门内为正大光明殿七楹，东西配殿各五楹，后为寿山，东为洞明堂」
+      confidence: high
+    - source: 圆明园管理处论文（2011，第十届清宫史学术研讨会论文集）「十檩单檐灰瓦卷棚歇山顶」
+      confidence: medium
+    - source: 乾隆四十二年禁改黄瓦谕旨（《国朝宫史续编》转录）——瓦色灰，子孙不得改黄
+      confidence: high
+    - source: 管理处论文 2011——殿前宽大月台，南出三路九级垂带踏跺，月台安鼎炉四个
+      confidence: medium
+    - source: 进深两说并列——三间＋四面围廊（管理处/圆明园研究会）vs 五间＋前后出廊（凯风网/百科）；本表取前者
+      confidence: medium
+    - source: 工作假设——斗口取七等三寸（无本殿记载；与二手转引面阔 36.45 m 的量级相容），待样式雷图档核定
+      confidence: low
+    - source: 工作假设——台基高 3.5 尺（无直接记载；与西人记述 4 法尺/4 英尺≈1.22–1.32 m 相容）
+      confidence: low
+    - source: 管理处论文 2011——乾隆朝改朱红柱、云头五爪金龙纹（作者推断和玺彩画）＋复杂斗栱（research-zhengda-guangming.md 7.2）
+      confidence: medium
+    - source: 工作假设——斗拱取五踩（「复杂斗栱」未言踩数；七间大式殿通例量级），斗拱层高与构件尺寸见 S-040
+      confidence: low
+    - source: 二手尺寸待证——面阔 36.45 m、明间 5.22 m、檐柱高 5.12 m（原始出版物未核，仅作量级参照）
+      confidence: low

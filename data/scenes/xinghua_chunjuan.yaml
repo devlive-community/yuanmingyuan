@@ -1,0 +1,29 @@
+# 杏花春馆景（后湖西北） · 场景装配（乾隆二十年改建后形态）
+#
+# 有据（research-xinghua-ruyu.md 1.1/1.2，medium）：康熙菜圃→雍正杏花春馆/杏花村；
+# 乾隆二十年（1755）前部大改建：添建春雨轩殿、涧壑余清宫门、南山得树亭；有翠微堂。
+# 工作假设（S-035）：间数外全部尺寸；菜圃/杏花村/城关/绿云酣未建模。
+scene:
+  id: xinghua_chunjuan
+  name: 杏花春馆
+  buildings:
+    - ref: ../buildings/xinghua_chunyu_xuan.yaml
+      role: 春雨轩殿
+      x_cm: 0
+      y_cm: 0
+      rotation_deg: 0
+    - ref: ../buildings/xinghua_gongmen.yaml
+      role: 涧壑余清宫门
+      x_cm: 0
+      y_cm: -1400
+      rotation_deg: 0
+    - ref: ../buildings/xingde_nanshan_ting.yaml
+      role: 南山得树亭
+      x_cm: 1400
+      y_cm: 800
+      rotation_deg: 0
+    - ref: ../buildings/cuiwei_tang.yaml
+      role: 翠微堂
+      x_cm: -1400
+      y_cm: 600
+      rotation_deg: 0

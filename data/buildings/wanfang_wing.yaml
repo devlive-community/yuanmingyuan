@@ -1,0 +1,20 @@
+# 万方安和 · 支路（面阔 5 间 × 进深 1 间）× 4
+# 依据：故宫博物院院刊——四支路各面阔 5 间；进深取 1 间以使间数合计 33（13＋4×5）
+building:
+  id: wanfang_wing
+  name: 万方安和支路（5×1）
+  grade: 大式
+  doukou_grade: 8
+  doukou_cun: 2.5      # 工作假设（S-021）
+  bays: 5
+  depth_bays: 1
+  bay_brackets: 4
+  depth_brackets: 3
+  roof: 卷棚歇山        # 卷棚顶（院刊文，medium）
+  enclosure: surround # 水中殿宇四面装修（工作假设，S-042）
+  platform_height_chi: 2.0   # 与其余模块同高（S-021）
+  evidence:
+    - source: 故宫博物院院刊《万方安和九咏空间再探》——四支路各面阔 5 间
+      confidence: medium
+    - source: 工作假设——支路进深取 1 间（使合计 33 间）、斗口、台基高（S-021）
+      confidence: low

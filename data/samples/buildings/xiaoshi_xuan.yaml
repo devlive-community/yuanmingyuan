@@ -1,0 +1,14 @@
+# 生成器能力演示（非复原数据，不进入三园总图）：小式三间卷棚硬山
+building:
+  id: sample_xiaoshi_xuan
+  name: 小式三间卷棚硬山
+  grade: 小式
+  bays: 3
+  depth_bays: 1
+  ming_bay_chi: 10.5
+  depth_bay_chi: 14
+  roof: 卷棚硬山
+  platform_height_chi: 1.5
+  evidence:
+    - source: 生成器样例，非史料
+      confidence: placeholder

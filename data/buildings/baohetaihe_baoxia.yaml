@@ -1,0 +1,21 @@
+# 保合太和抱厦（三间）· 前出三间抱厦，以独立三间殿与保合太和台基相接表达
+# 依据：保合太和殿「前出三间抱厦」（research-qinzheng-qinxian.md 2.3，medium）
+# 简化说明（S-020）：真实抱厦屋顶与主殿屋面搭接连成一体，本步以贴建小殿近似；
+# 抱厦进深取二间、屋顶、斗口均为工作假设。
+building:
+  id: baohetaihe_baoxia
+  name: 保合太和抱厦（三间）
+  grade: 大式
+  doukou_grade: 8
+  doukou_cun: 2.5      # 工作假设（S-020）
+  bays: 3
+  depth_bays: 2
+  bay_brackets: 4
+  depth_brackets: 3
+  roof: 卷棚歇山        # 工作假设（S-020）
+  platform_height_chi: 2.0   # 与保合太和同高（台基相接）
+  evidence:
+    - source: 百度百科——保合太和殿「前出三间抱厦」
+      confidence: medium
+    - source: 工作假设——抱厦进深、屋顶、斗口无记载；以贴建小殿近似搭接关系（S-020）
+      confidence: low

@@ -1,0 +1,20 @@
+# 平湖秋月正殿 · 福海北岸（雍正御书匾）
+# 依据：正殿悬雍正御书"平湖秋月"匾，北临福海（research-fuhai-ring.md 2.2，medium）
+# 间数无记载按三楹假设（S-031）
+building:
+  id: pinghu_zhengdian
+  name: 平湖秋月正殿
+  grade: 大式
+  doukou_grade: 8
+  doukou_cun: 2.5      # 工作假设（S-031）
+  bays: 3
+  depth_bays: 2
+  bay_brackets: 3
+  depth_brackets: 3
+  roof: 卷棚歇山        # 工作假设（S-031）
+  platform_height_chi: 2.0   # 工作假设（S-031）
+  evidence:
+    - source: 百科/《日下旧闻考》卷八十二——平湖秋月四十景之一，额为世宗御书；北临福海
+      confidence: medium
+    - source: 工作假设——间数、斗口、屋顶、台基高（S-031）
+      confidence: low

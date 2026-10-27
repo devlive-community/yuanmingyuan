@@ -1,0 +1,46 @@
+# 蓬岛瑶台景（福海中央主岛） · 场景装配
+#
+# 有据（research-pengdao-yaotai.md，medium）：
+#   - 福海中央三岛（蓬莱/方丈/瀛洲）；主岛：宫门（3 间，覆琉璃瓦）→ 正殿（7 间），
+#     殿前东列畅襟楼（三开间楼）、西列神洲三岛，东偏殿随安室、西偏殿日日平安报好音
+#   - 建于雍正三年前后（蓬莱洲），乾隆初年定名
+#
+# 工作假设（speculative S-030）：各殿间数（正殿/宫门/畅襟楼有据外）、斗口、屋顶、
+# 台基高、殿间距、岛台尺寸；象征方丈/瀛洲的两座小岛未建模；宫门琉璃瓦色待考。
+# 坐标系：Z 向上、1 单位 = 1 cm；正面朝 −Y（南）。
+scene:
+  id: pengdao_yaotai
+  name: 蓬岛瑶台
+  island_w_cm: 10000
+  island_d_cm: 9000
+  buildings:
+    - ref: ../buildings/pengdao_gongmen.yaml
+      role: 宫门
+      x_cm: 0
+      y_cm: -1748
+      rotation_deg: 0
+    - ref: ../buildings/pengdao_zhengdian.yaml
+      role: 正殿
+      x_cm: 0
+      y_cm: 0
+      rotation_deg: 0
+    - ref: ../buildings/pengdao_suianshi.yaml
+      role: 随安室
+      x_cm: 1748
+      y_cm: 0
+      rotation_deg: 90
+    - ref: ../buildings/pengdao_riri.yaml
+      role: 日日平安报好音
+      x_cm: -1748
+      y_cm: 0
+      rotation_deg: 90
+    - ref: ../buildings/pengdao_changjin_lou.yaml
+      role: 畅襟楼
+      x_cm: 1748
+      y_cm: -1300
+      rotation_deg: 0
+    - ref: ../buildings/pengdao_shenzhou.yaml
+      role: 神洲三岛
+      x_cm: -1748
+      y_cm: -1300
+      rotation_deg: 0

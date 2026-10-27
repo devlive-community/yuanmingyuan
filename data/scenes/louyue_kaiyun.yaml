@@ -1,0 +1,19 @@
+# 镂月开云景（后湖东南岸，九洲清晏东） · 场景装配
+#
+# 有据（research-louyue-tianran.md 1.1/1.3，medium）：原称牡丹亭（最早建筑群之一）；
+# 楠木构、殿顶覆二色琉璃瓦（色未考）；院植牡丹数百株；旁为御兰芬。
+# 工作假设（S-036）：间数外全部尺寸；纪恩堂与植被未建模。
+scene:
+  id: louyue_kaiyun
+  name: 镂月开云
+  buildings:
+    - ref: ../buildings/louyue_zhengdian.yaml
+      role: 正殿
+      x_cm: 0
+      y_cm: 0
+      rotation_deg: 0
+    - ref: ../buildings/louyue_yulanfen.yaml
+      role: 御兰芬
+      x_cm: 1400
+      y_cm: 600
+      rotation_deg: 0

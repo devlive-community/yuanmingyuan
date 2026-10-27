@@ -1,0 +1,14 @@
+# 涵虚朗鉴景（福海东岸，雷峰夕照） · 场景装配
+#
+# 有据（research-fuhai-ring.md 4.1/4.2，medium）：即雷峰夕照，福海东岸；
+# 北面方壶胜境，南面接秀山房。
+# 工作假设（S-031）：间数与全部尺寸；其余建筑未建模。
+scene:
+  id: hanxu_langjian
+  name: 涵虚朗鉴
+  buildings:
+    - ref: ../buildings/hanxu_leifeng.yaml
+      role: 雷峰夕照殿
+      x_cm: 0
+      y_cm: 0
+      rotation_deg: 0

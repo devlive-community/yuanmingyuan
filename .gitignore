@@ -1,0 +1,19 @@
+# 系统、编辑器与本地工具配置
+.DS_Store
+CLAUDE.md
+.claude/
+
+# 本地 Python 环境（TripoSR 等），见 docs/sources/zodiac-heads-assets.md
+.venv/
+__pycache__/
+
+# 第三方仓库（本地克隆 + 补丁 tools/patches/）
+third_party/
+
+# 构建产物：烘焙缓存、渲染图、网页数据与离线单文件预览页
+build/
+圆明园全景-打开这个.html
+
+# 单图生成 3D 的原始输出（可由同目录截图经 tools/tsr_generate.py 重新生成）与已弃用造型
+assets/*/raw/*.obj
+assets/zodiac_figures/archive_ref6/

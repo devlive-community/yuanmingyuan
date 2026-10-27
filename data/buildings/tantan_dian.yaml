@@ -1,0 +1,19 @@
+# 坦坦荡荡殿（三楹）· 后湖西岸金鱼池
+# 依据：坦坦荡荡殿三楹，仿杭州花港观鱼（research-jiuzhou-north.md 2.2，medium）
+building:
+  id: tantan_dian
+  name: 坦坦荡荡殿
+  grade: 大式
+  doukou_grade: 8
+  doukou_cun: 2.5      # 工作假设（S-034）
+  bays: 3
+  depth_bays: 2
+  bay_brackets: 3
+  depth_brackets: 3
+  roof: 歇山            # 工作假设（S-034）
+  platform_height_chi: 2.0   # 工作假设（S-034）
+  evidence:
+    - source: 书格转录——坦坦荡荡，三楹，前为素心堂，后为光风霁月
+      confidence: medium
+    - source: 工作假设——斗口、屋顶、台基高（S-034）
+      confidence: low

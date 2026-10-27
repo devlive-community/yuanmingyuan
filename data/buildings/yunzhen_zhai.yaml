@@ -1,0 +1,19 @@
+# 蕴真斋 · 含经堂组中轴第二进
+# 依据：构成有据（research-hanjingtang.md 2.1，medium）；间数无记载按五楹斋例（S-024）
+building:
+  id: yunzhen_zhai
+  name: 蕴真斋
+  grade: 大式
+  doukou_grade: 8
+  doukou_cun: 2.5      # 工作假设（S-024）
+  bays: 5
+  depth_bays: 2
+  bay_brackets: 4
+  depth_brackets: 3
+  roof: 卷棚歇山        # 工作假设（S-024）
+  platform_height_chi: 2.0   # 工作假设（S-024）
+  evidence:
+    - source: 圆明园管理处——中心岛上含经堂、蕴真斋、淳化轩
+      confidence: medium
+    - source: 工作假设——间数、斗口、屋顶、台基高（S-024）
+      confidence: low

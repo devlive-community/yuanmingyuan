@@ -1,0 +1,45 @@
+# 圆明园总园预览 · 装配定义（示意方位版）
+#
+# 有据的方位关系：
+#   - 勤政亲贤：正大光明之东（四十景图咏勤政亲贤幅题记，research-qinzheng-qinxian.md）
+#   - 九洲清晏：正大光明直北、隔前湖（四十景图咏九洲清晏御制诗序「正大光明直北为几馀游息之所」）
+#   - 万方安和：后湖西侧（research-wanfang-anhe.md 1.1）
+#
+# 工作假设（speculative S-022）：
+#   - 景间距、前湖/后湖尺寸与轮廓均为示意（真实湖泊轮廓待阶段 3 地形水系）
+#   - 湖面顶面 z = 0.6 cm（高于景内示意水面 0，避免共面闪烁，6 mm 不可见）
+#   - 各景只取已建模建筑；九州岛四面环水、万方水域轮廓等未表达
+garden:
+  id: yuanmingyuan_preview
+  name: 圆明园总园预览
+  scenes:
+    - ref: ../scenes/zhengda_guangming.yaml
+      x_cm: 0
+      y_cm: 0
+    - ref: ../scenes/qinzheng_qinxian.yaml
+      x_cm: 6200
+      y_cm: 0
+    - ref: ../scenes/jiuzhou_qingyan.yaml
+      x_cm: 0
+      y_cm: 2740
+    - ref: ../scenes/fanghu_shengjing.yaml   # 福海东北岸（方壶胜境，三亭南伸入湖）
+      x_cm: 18000
+      y_cm: 15200
+    - ref: ../scenes/wanfang_anhe.yaml
+      x_cm: -4612
+      y_cm: 8000
+  lakes:
+    - name: 前湖
+      x_cm: 0
+      y_cm: 1700
+      w_cm: 2400
+      d_cm: 1200
+    - name: 后湖
+      x_cm: 0
+      y_cm: 8000
+      w_cm: 2200
+      d_cm: 1800
+    - name: 福海
+      polygon: fuhai
+      x_cm: 18000
+      y_cm: 9500

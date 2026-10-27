@@ -1,0 +1,15 @@
+# 生成器能力演示（非复原数据，不进入三园总图）：小式三间方亭
+building:
+  id: sample_xiaoshi_ting
+  name: 小式三间方亭
+  grade: 小式
+  bays: 3
+  depth_bays: 3
+  ming_bay_chi: 8
+  side_bay_chi: 8
+  depth_bay_chi: 8
+  roof: 攒尖
+  platform_height_chi: 1.5
+  evidence:
+    - source: 生成器样例，非史料
+      confidence: placeholder

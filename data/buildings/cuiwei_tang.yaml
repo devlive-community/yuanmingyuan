@@ -1,0 +1,19 @@
+# 翠微堂（杏花春馆）
+# 依据：有翠微堂、城关、绿云酣（research-xinghua-ruyu.md 1.2，medium）；间数假设（S-035）
+building:
+  id: cuiwei_tang
+  name: 翠微堂
+  grade: 大式
+  doukou_grade: 8
+  doukou_cun: 2.5      # 工作假设（S-035）
+  bays: 3
+  depth_bays: 2
+  bay_brackets: 3
+  depth_brackets: 3
+  roof: 卷棚歇山        # 工作假设（S-035）
+  platform_height_chi: 1.5   # 工作假设（S-035）
+  evidence:
+    - source: 书格转录——有翠微堂
+      confidence: medium
+    - source: 工作假设——间数、斗口、屋顶、台基高（S-035）
+      confidence: low

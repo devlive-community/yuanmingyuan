@@ -1,0 +1,20 @@
+# 澄练楼（接秀山房景内楼）· 福海东岸
+# 依据：接秀山房旁有澄练楼（research-fuhai-ring.md 3.1，medium）；层数与尺寸为工作假设（S-031）
+building:
+  id: jiexiu_chenglian_lou
+  name: 澄练楼
+  grade: 大式
+  doukou_grade: 8
+  doukou_cun: 2.5      # 工作假设（S-031）
+  bays: 3
+  depth_bays: 2
+  bay_brackets: 3
+  depth_brackets: 3
+  roof: 卷棚歇山        # 工作假设（S-031）
+  platform_height_chi: 2.0   # 工作假设（S-031）
+  stories: 2           # 楼（名称有据；二层为通例假设，S-031）
+  evidence:
+    - source: wixsite——接秀山房旁有澄练楼
+      confidence: medium
+    - source: 工作假设——层数、间数、斗口、屋顶、台基高（S-031）
+      confidence: low

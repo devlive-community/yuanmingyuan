@@ -1,0 +1,19 @@
+# 淳化轩 · 含经堂组北殿（廊壁嵌淳化阁帖刻石）
+# 依据：构成有据（research-hanjingtang.md 2.1/2.2，medium）；间数无记载按五楹轩例（S-024）
+building:
+  id: chunhua_xuan
+  name: 淳化轩
+  grade: 大式
+  doukou_grade: 8
+  doukou_cun: 2.5      # 工作假设（S-024）
+  bays: 5
+  depth_bays: 2
+  bay_brackets: 4
+  depth_brackets: 3
+  roof: 卷棚歇山        # 工作假设（S-024）
+  platform_height_chi: 2.0   # 工作假设（S-024）
+  evidence:
+    - source: 圆明园管理处/百科——淳化轩廊壁嵌满淳化阁帖石刻
+      confidence: medium
+    - source: 工作假设——间数、斗口、屋顶、台基高（S-024）
+      confidence: low

@@ -1,0 +1,15 @@
+# 生成器能力演示（非复原数据，不进入三园总图）：卷棚硬山顶样例
+building:
+  id: sample_roof_juanpeng_yingshan
+  name: 卷棚硬山样例
+  grade: 大式
+  doukou_cun: 2.5
+  bays: 5
+  depth_bays: 2
+  bay_brackets: 4
+  depth_brackets: 4
+  roof: 卷棚硬山
+  platform_height_chi: 2.0
+  evidence:
+    - source: 生成器样例，非史料
+      confidence: placeholder

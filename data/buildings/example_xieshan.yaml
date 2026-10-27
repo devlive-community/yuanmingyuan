@@ -1,0 +1,19 @@
+# [已废止] 本文件为阶段 0 的占位示例，2026-10-19 起废止。
+# 原因：其参数（斗口、间数、屋顶类型）为演示用编造值，不得用于最终复原
+#       （docs/speculative.md 原 S-011）。
+# 现行数据：data/buildings/zhengda_guangming.yaml（逐参数挂 evidence）。
+# 本文件仅为留档保留，不参与生成；请勿引用。
+#
+# 原内容要点（留档）：id zhengda_guangming / 斗口 3.0 寸 / 7 间 / 歇山 / 台基 3.5 尺，
+# 均为占位值，无史料依据。
+building:
+  id: deprecated_placeholder
+  name: 占位示例（已废止）
+  doukou_cun: 3.0
+  bays: 7
+  depth_bays: 3
+  roof: 歇山
+  platform_height_chi: 3.5
+  evidence:
+    - source: 已废止的占位示例（原 speculative S-011）
+      confidence: placeholder

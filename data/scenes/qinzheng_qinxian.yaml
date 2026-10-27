@@ -1,0 +1,29 @@
+# 勤政亲贤景 · 场景装配（勤政亲贤殿 → 保合太和殿＋抱厦）
+#
+# 有据（research-qinzheng-qinxian.md，medium）：
+#   - 位于正大光明之东；皇帝日常听政办公之所
+#   - 勤政亲贤殿五楹；保合太和面阔九间、前出三间抱厦；富春楼在保合太和北
+#
+# 工作假设（speculative S-020）：
+#   - 按南北轴说装配（维基另有「保合太和在静鉴阁东」的东侧说，两说并列）
+#   - 庭院间距：勤政亲贤殿后檐至抱厦前檐 620 cm；抱厦台基与保合太和台基相接（gap 0）
+#   - 芳碧丛（两说不清）、富春楼（需二层几何）未建模
+scene:
+  id: qinzheng_qinxian
+  name: 勤政亲贤
+  buildings:
+    - ref: ../buildings/qinzheng_qinxian_dian.yaml
+      role: 勤政亲贤殿
+      x_cm: 0
+      y_cm: 0
+      rotation_deg: 0
+    - ref: ../buildings/baohetaihe_baoxia.yaml
+      role: 保合太和抱厦
+      x_cm: 0
+      y_cm: 1500
+      rotation_deg: 0
+    - ref: ../buildings/baohetaihe_dian.yaml
+      role: 保合太和殿
+      x_cm: 0
+      y_cm: 2380
+      rotation_deg: 0

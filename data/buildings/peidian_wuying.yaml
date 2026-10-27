@@ -1,0 +1,20 @@
+# 东西配殿（五楹）· 正大光明景东西配殿共用参数
+# 依据：东西配殿各五楹（《日下旧闻考》卷八十 p.344，high）。
+# 其余参数（斗口、屋顶、台基高）无本建筑记载，为工作假设（speculative S-018）。
+building:
+  id: peidian_wuying
+  name: 东西配殿（五楹）
+  grade: 大式
+  doukou_grade: 8
+  doukou_cun: 2.5      # 工作假设（S-018）
+  bays: 5
+  depth_bays: 2
+  bay_brackets: 4      # 次间 3 攒（S-009 公式）
+  depth_brackets: 3
+  roof: 卷棚歇山        # 工作假设（S-018）：无记载，按主殿同期做法取
+  platform_height_chi: 2.5   # 工作假设（S-018）
+  evidence:
+    - source: 《钦定日下旧闻考》卷八十 p.344「东西配殿各五楹」
+      confidence: high
+    - source: 工作假设——斗口、屋顶、台基高无本建筑记载，按同期配殿通例取值（S-018）
+      confidence: low

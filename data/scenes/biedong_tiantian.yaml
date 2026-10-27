@@ -1,0 +1,26 @@
+# 别有洞天景（福海东南隅山水间，园中园） · 场景装配
+#
+# 有据（research-fuhai-south.md 2.1/2.2，medium）：
+#   - 建于 1730 前后，时称秀清村，1739 定名；园中园，经城关出入（位置隐秘）
+#   - 有纳翠楼、水木清华之阁、时赏斋、石舫
+#
+# 工作假设（S-032）：三栋建筑相对方位与间距；石舫（需船形几何）、城关、墙垣未建模。
+scene:
+  id: biedong_tiantian
+  name: 别有洞天
+  buildings:
+    - ref: ../buildings/biedong_shishang_zhai.yaml
+      role: 时赏斋
+      x_cm: 0
+      y_cm: 0
+      rotation_deg: 0
+    - ref: ../buildings/biedong_nacui_lou.yaml
+      role: 纳翠楼
+      x_cm: 0
+      y_cm: 1400
+      rotation_deg: 0
+    - ref: ../buildings/biedong_shuimu_ge.yaml
+      role: 水木清华之阁
+      x_cm: 0
+      y_cm: -1400
+      rotation_deg: 0

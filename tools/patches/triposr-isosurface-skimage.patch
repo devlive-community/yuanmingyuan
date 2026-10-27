@@ -1,0 +1,19 @@
+tsr/models/isosurface.py | 8 +++++++-
+ 1 file changed, 7 insertions(+), 1 deletion(-)
+
+--- Changes ---
+
+tsr/models/isosurface.py
+  @@ -3,7 +3,13 @@ from typing import Callable, Optional, Tuple
+  -from torchmcubes import marching_cubes
+  +from skimage.measure import marching_cubes as _sk_marching_cubes
+  +
+  +
+  +def marching_cubes(level: torch.Tensor, threshold: float):
+  +    """yuanmingyuan-3d 本地补丁：以 scikit-image 代替需编译的 torchmcubes（返回顶点顺序与 torchmcubes 一致：k, j, i）。"""
+  +    verts, faces, _n, _v = _sk_marching_cubes(level.cpu().numpy(), threshold)
+  +    return torch.from_numpy(verts[:, ::-1].copy()).float(), torch.from_numpy(faces.astype(np.int64))
+   
+   
+   class IsosurfaceHelper(nn.Module):
+  +7 -1

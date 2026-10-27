@@ -1,0 +1,20 @@
+# 镂月开云正殿（原牡丹亭，五楹假设）· 后湖东南岸
+# 依据：原称牡丹亭，圆明园最早建筑群之一；楠木构、殿顶覆二色琉璃瓦
+# （research-louyue-tianran.md 1.1/1.3，medium）；间数无记载按五楹假设（S-036）
+building:
+  id: louyue_zhengdian
+  name: 镂月开云正殿
+  grade: 大式
+  doukou_grade: 8
+  doukou_cun: 2.5      # 工作假设（S-036）
+  bays: 5
+  depth_bays: 2
+  bay_brackets: 4
+  depth_brackets: 3
+  roof: 歇山            # 工作假设（S-036；殿顶覆二色琉璃瓦，色未考暂灰）
+  platform_height_chi: 2.5   # 工作假设（S-036）
+  evidence:
+    - source: 书格转录——镂月开云原称牡丹亭，最早建筑群之一；木料以楠木为主，殿顶覆二色琉璃瓦；乾隆三十一年题"纪恩堂"匾
+      confidence: medium
+    - source: 工作假设——间数、斗口、屋顶、台基高、琉璃配色（S-036）
+      confidence: low

@@ -1,0 +1,19 @@
+# 竹香斋（茹古涵今，斋前为竹林）
+# 依据：后为韶景轩、茂育斋、竹香斋；竹香斋前为竹林（research-xinghua-ruyu.md 2.2，medium）
+building:
+  id: ruyu_zhuxiang_zhai
+  name: 竹香斋
+  grade: 大式
+  doukou_grade: 8
+  doukou_cun: 2.5      # 工作假设（S-035）
+  bays: 3
+  depth_bays: 2
+  bay_brackets: 3
+  depth_brackets: 3
+  roof: 卷棚歇山        # 工作假设（S-035）
+  platform_height_chi: 1.5   # 工作假设（S-035）
+  evidence:
+    - source: 书格转录——后为韶景轩、茂育斋、竹香斋；竹香斋前为竹林
+      confidence: medium
+    - source: 工作假设——间数、斗口、屋顶、台基高（S-035）
+      confidence: low

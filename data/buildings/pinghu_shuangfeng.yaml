@@ -1,0 +1,22 @@
+# 两峰插云亭（高台重檐四方亭）· 平湖秋月景
+# 依据：两峰插云为五孔桥东侧之高台重檐四方亭（乾隆重阳登高处）（research-fuhai-ring.md 2.2，medium）
+# 间数与斗口为工作假设（S-031）
+building:
+  id: pinghu_shuangfeng
+  name: 两峰插云亭
+  grade: 大式
+  doukou_grade: 8
+  doukou_cun: 2.5      # 工作假设（S-031）
+  bays: 3
+  depth_bays: 3
+  bay_brackets: 3
+  depth_brackets: 3
+  roof: 卷棚歇山        # 工作假设（S-031）
+  enclosure: open     # 亭：四面敞开（通例，S-042）
+  platform_height_chi: 2.5   # 高台（medium 记载"建在高台上"，高度假设）
+  double_eave: true    # 重檐（medium）
+  evidence:
+    - source: 书格转录——五孔桥东侧之高台重檐四方亭即两峰插云；wixsite——高台重檐四方亭
+      confidence: medium
+    - source: 工作假设——间数、斗口、台基高、屋顶（S-031）
+      confidence: low

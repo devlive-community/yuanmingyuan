@@ -1,0 +1,19 @@
+# 欢喜佛场（慈云普护前殿，三楹，临后湖）
+# 依据：前殿临后湖，三楹，称"欢喜佛场"（research-jiuzhou-north.md 1.1，medium）
+building:
+  id: ciyun_qianfochang
+  name: 欢喜佛场
+  grade: 大式
+  doukou_grade: 8
+  doukou_cun: 2.5      # 工作假设（S-034）
+  bays: 3
+  depth_bays: 2
+  bay_brackets: 3
+  depth_brackets: 3
+  roof: 歇山            # 工作假设（S-034）
+  platform_height_chi: 2.0   # 工作假设（S-034）
+  evidence:
+    - source: 书格转录——前殿临后湖，三楹，称"欢喜佛场"
+      confidence: medium
+    - source: 工作假设——斗口、屋顶、台基高（S-034）
+      confidence: low

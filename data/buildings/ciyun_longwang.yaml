@@ -1,0 +1,19 @@
+# 龙王殿（慈云普护东）· 风调雨顺
+# 依据：东为龙王殿，供龙王求风调雨顺（research-jiuzhou-north.md 1.1，medium）
+building:
+  id: ciyun_longwang
+  name: 龙王殿
+  grade: 大式
+  doukou_grade: 8
+  doukou_cun: 2.5      # 工作假设（S-034）
+  bays: 3
+  depth_bays: 2
+  bay_brackets: 3
+  depth_brackets: 3
+  roof: 卷棚歇山        # 工作假设（S-034）
+  platform_height_chi: 1.5   # 工作假设（S-034）
+  evidence:
+    - source: 书格转录——东为龙王殿
+      confidence: medium
+    - source: 工作假设——间数、斗口、屋顶、台基高（S-034）
+      confidence: low

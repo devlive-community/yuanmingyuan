@@ -1,0 +1,19 @@
+# 碧桐书院后殿（五楹）· 三进院落第三进（北）
+# 依据：后殿五楹（research-bitong.md 1.2，medium）
+building:
+  id: bitong_houdian
+  name: 碧桐书院后殿
+  grade: 大式
+  doukou_grade: 8
+  doukou_cun: 2.5      # 工作假设（S-037）
+  bays: 5
+  depth_bays: 2
+  bay_brackets: 4
+  depth_brackets: 3
+  roof: 卷棚歇山        # 工作假设（S-037）
+  platform_height_chi: 2.0   # 工作假设（S-037）
+  evidence:
+    - source: 书格转录——中殿、后殿各五楹
+      confidence: medium
+    - source: 工作假设——斗口、屋顶、台基高（S-037）
+      confidence: low

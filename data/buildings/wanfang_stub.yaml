@@ -1,0 +1,20 @@
+# 万方安和 · 接间（1×1 间）——中央十字与支路之间的过渡间
+# 依据：中央十字 13 间 = 中心 3×3（9 间）＋四接间（4 间），见 research-wanfang-anhe.md
+building:
+  id: wanfang_stub
+  name: 万方安和接间（1×1）
+  grade: 大式
+  doukou_grade: 8
+  doukou_cun: 2.5      # 工作假设（S-021）
+  bays: 1
+  depth_bays: 1
+  bay_brackets: 3
+  depth_brackets: 3
+  roof: 卷棚歇山        # 卷棚顶（院刊文，medium）
+  enclosure: surround # 水中殿宇四面装修（工作假设，S-042）
+  platform_height_chi: 2.0   # 与其余模块同高（S-021）
+  evidence:
+    - source: 故宫博物院院刊《万方安和九咏空间再探》——中央十字部分 13 间的构成推算（9＋4）
+      confidence: medium
+    - source: 工作假设——接间拆分方式、斗口、台基高（S-021）
+      confidence: low

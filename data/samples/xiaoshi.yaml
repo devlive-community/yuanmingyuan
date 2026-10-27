@@ -1,0 +1,17 @@
+# 生成器能力演示（非复原数据，不进入三园总图）：小式 / 大式比例对照（docs/speculative.md S-039）
+scene:
+  id: sample_xiaoshi
+  name: 小式大式样例
+  buildings:
+    - ref: buildings/xiaoshi_xuan.yaml
+      role: 小式轩
+      x_cm: 0
+      y_cm: 0
+    - ref: buildings/xiaoshi_ting.yaml
+      role: 小式方亭
+      x_cm: 1800
+      y_cm: 0
+    - ref: buildings/dashi_ref.yaml
+      role: 大式殿
+      x_cm: 3600
+      y_cm: 0

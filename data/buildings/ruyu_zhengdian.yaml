@@ -1,0 +1,19 @@
+# 茹古涵今正殿（五楹）· 皇帝冬季读书之地
+# 依据：正殿五楹（research-xinghua-ruyu.md 2.2，medium）
+building:
+  id: ruyu_zhengdian
+  name: 茹古涵今正殿
+  grade: 大式
+  doukou_grade: 8
+  doukou_cun: 2.5      # 工作假设（S-035）
+  bays: 5
+  depth_bays: 2
+  bay_brackets: 4
+  depth_brackets: 3
+  roof: 歇山            # 工作假设（S-035）
+  platform_height_chi: 2.5   # 工作假设（S-035）
+  evidence:
+    - source: 书格转录——茹古涵今正殿五楹，后为韶景轩、茂育斋、竹香斋；皇帝冬季读书之地
+      confidence: medium
+    - source: 工作假设——斗口、屋顶、台基高（S-035）
+      confidence: low

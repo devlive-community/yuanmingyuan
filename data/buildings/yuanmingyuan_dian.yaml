@@ -1,0 +1,20 @@
+# 圆明园殿（五楹）· 九洲清晏景区中轴第一殿（最南）
+# 依据：圆明园殿五楹（维基/四十景图咏简介转录多源一致，research-jiuzhou-qingyan.md 2.1）
+# 「圆明」匾为园名之源（medium）；其余参数为工作假设（S-019）
+building:
+  id: yuanmingyuan_dian
+  name: 圆明园殿
+  grade: 大式
+  doukou_grade: 8
+  doukou_cun: 2.5      # 工作假设（S-019）
+  bays: 5
+  depth_bays: 2
+  bay_brackets: 4
+  depth_brackets: 3
+  roof: 卷棚歇山        # 工作假设（S-019）：无记载
+  platform_height_chi: 2.5   # 工作假设（S-019）
+  evidence:
+    - source: 维基百科/《圆明园四十景图咏》简介转录：「最前为圆明园殿五楹，是圆明园最早的建筑之一，康熙帝题写的"圆明"匾额悬挂于此」
+      confidence: high
+    - source: 工作假设——斗口、屋顶、台基高无本殿记载（S-019）
+      confidence: low

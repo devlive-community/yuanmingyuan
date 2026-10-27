@@ -1,0 +1,24 @@
+# 方壶胜境重檐大亭（三座之一）· 山字形伸入福海
+# 依据：前部三座重檐大亭呈"山"字形伸入湖中（research-fanghu-shengjing.md 2.1，medium）；
+# 亭名迎薰/集瑞/凝祥（乾隆三年御书匾文，sohu 文）。间数无记载按三间方亭通例（S-027）
+building:
+  id: fanghu_ting
+  name: 方壶胜境重檐亭
+  grade: 大式
+  doukou_grade: 8
+  doukou_cun: 2.5      # 工作假设（S-027）
+  bays: 3
+  depth_bays: 3
+  bay_brackets: 3
+  depth_brackets: 3
+  roof: 卷棚歇山        # 工作假设（S-027）
+  enclosure: open     # 亭：四面敞开（通例，S-042）
+  platform_height_chi: 2.0   # 工作假设（S-027；汉白玉底座高度无记载）
+  double_eave: true    # 重檐（院刊/百科记载"重檐大亭"，medium）
+  evidence:
+    - source: 百度百科——前部为三座重檐大亭呈"山"字形伸入湖中，建筑底座以汉白玉砌筑
+      confidence: medium
+    - source: 搜狐/圆明园研究——乾隆五年三月御书匾文二十张（迎薰亭、集瑞亭、凝祥亭等）挂讫
+      confidence: medium
+    - source: 工作假设——亭间数、斗口、台基高、腰檐尺寸（S-027）
+      confidence: low

@@ -1,0 +1,19 @@
+# 哕鸾殿（前五楹）· 方壶胜境正殿前殿
+# 依据：亭后过桥为方壶胜境正殿，为二层楼宇，前后各五楹，前曰哕鸾殿（research-fanghu-shengjing.md 2.2）
+building:
+  id: fanghu_kualun_dian
+  name: 哕鸾殿
+  grade: 大式
+  doukou_grade: 8
+  doukou_cun: 2.5      # 工作假设（S-027）
+  bays: 5              # 前五楹（medium）
+  depth_bays: 2
+  bay_brackets: 4
+  depth_brackets: 3
+  roof: 卷棚歇山        # 工作假设（S-027）
+  platform_height_chi: 2.5   # 工作假设（S-027）
+  evidence:
+    - source: 圆明园研究/书格图咏转录——正殿二层楼宇前后各五楹，前曰哕鸾殿，北为琼华楼，左右配楼，天桥相连
+      confidence: medium
+    - source: 工作假设——斗口、屋顶、台基高（S-027）
+      confidence: low

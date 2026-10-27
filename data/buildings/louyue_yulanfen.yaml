@@ -1,0 +1,19 @@
+# 御兰芬（镂月开云旁）
+# 依据：旁为御兰芬（research-louyue-tianran.md 1.3，medium）；间数假设（S-036）
+building:
+  id: louyue_yulanfen
+  name: 御兰芬
+  grade: 大式
+  doukou_grade: 8
+  doukou_cun: 2.5      # 工作假设（S-036）
+  bays: 3
+  depth_bays: 2
+  bay_brackets: 3
+  depth_brackets: 3
+  roof: 卷棚歇山        # 工作假设（S-036）
+  platform_height_chi: 1.5   # 工作假设（S-036）
+  evidence:
+    - source: 书格转录——旁为御兰芬
+      confidence: medium
+    - source: 工作假设——间数、斗口、屋顶、台基高（S-036）
+      confidence: low

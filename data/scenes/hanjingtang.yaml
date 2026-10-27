@@ -1,0 +1,26 @@
+# 含经堂景（长春园） · 场景装配（含经堂 → 蕴真斋 → 淳化轩，南→北）
+#
+# 有据（research-hanjingtang.md 2.1，medium）：长春园中心岛上中轴三殿构成；
+# 乾隆十年始建，归政颐养之所；淳化轩藏淳化阁帖刻石。
+# 工作假设（speculative S-024）：三殿间距 800 cm、各殿间数/斗口/屋顶/台基高；
+# 样式雷地盘样与考古测绘未获取。
+# 坐标系：Z 向上、1 单位 = 1 cm；正面朝 −Y（南）。
+scene:
+  id: hanjingtang
+  name: 含经堂
+  buildings:
+    - ref: ../buildings/hanjingtang_dian.yaml
+      role: 含经堂
+      x_cm: 0
+      y_cm: 0
+      rotation_deg: 0
+    - ref: ../buildings/yunzhen_zhai.yaml
+      role: 蕴真斋
+      x_cm: 0
+      y_cm: 1948
+      rotation_deg: 0
+    - ref: ../buildings/chunhua_xuan.yaml
+      role: 淳化轩
+      x_cm: 0
+      y_cm: 3628
+      rotation_deg: 0

@@ -1,0 +1,20 @@
+# 保合太和殿（九间）· 勤政亲贤景后殿
+# 依据：面阔九间、前出三间抱厦，殿内设东西暖阁（research-qinzheng-qinxian.md 2.3，medium）
+# 其余参数为工作假设（S-020）；抱厦以相邻三间小殿表达（见场景装配与 S-020）
+building:
+  id: baohetaihe_dian
+  name: 保合太和殿
+  grade: 大式
+  doukou_grade: 8
+  doukou_cun: 2.5      # 工作假设（S-020）
+  bays: 9
+  depth_bays: 2
+  bay_brackets: 5      # 九间殿通例取明间 5 攒、次间 4 攒（推算，非记载）
+  depth_brackets: 3
+  roof: 卷棚歇山        # 工作假设（S-020）：无记载
+  platform_height_chi: 2.0   # 工作假设（S-020，与抱厦取同高以便台基相接）
+  evidence:
+    - source: 百度百科——「芳碧丛后面是面阔九间、前出三间抱厦的保合太和殿，殿内设有东西暖阁」，悬乾隆御书《圣训四箴》
+      confidence: medium
+    - source: 工作假设——斗口、平身科数、屋顶、台基高无记载；总面阔约 33 m 为按通例推算量级（S-020）
+      confidence: low

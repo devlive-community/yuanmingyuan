@@ -1,0 +1,29 @@
+# 正觉寺景（绮春园） · 场景装配（山门 → 天王殿 → 三圣殿，南→北）
+#
+# 有据（research-zhengjuesi.md）：
+#   - 绮春园正宫门西，坐北朝南（维基，medium）
+#   - 中轴山门→天王殿→三圣殿→最上楼（文物局复建范围，medium）
+#   - 三圣殿正殿七间、三进深（人大清史文，medium）
+#
+# 工作假设（speculative S-025）：轴间距 800 cm；山门/天王殿间数、各殿屋顶与斗口、台基高；
+# 最上楼（二层楼，几何未支持）、钟鼓楼、东西六大金刚殿、文殊亭、西五佛殿未建模。
+# 坐标系：Z 向上、1 单位 = 1 cm；正面朝 −Y（南）。
+scene:
+  id: zhengjuesi
+  name: 正觉寺
+  buildings:
+    - ref: ../buildings/zhengjuesi_shanmen.yaml
+      role: 山门
+      x_cm: 0
+      y_cm: 0
+      rotation_deg: 0
+    - ref: ../buildings/zhengjuesi_tianwangdian.yaml
+      role: 天王殿
+      x_cm: 0
+      y_cm: 1680
+      rotation_deg: 0
+    - ref: ../buildings/zhengjuesi_sanshengdian.yaml
+      role: 三圣殿
+      x_cm: 0
+      y_cm: 3628
+      rotation_deg: 0

@@ -1,0 +1,20 @@
+# 圆明三园预览 · 装配定义（示意方位版）
+#
+# 有据：
+#   - 长春园在圆明园之东（乾隆十年"在圆明园东边开始建设长春园"，管理处文）
+#   - 各景内部方位关系见各自场景/总园文件
+# 工作假设（speculative S-026）：
+#   - 三园间距为示意（真实边界待阶段 3 地形）；绮春园在东南侧为通说方位的示意摆位
+garden:
+  id: sanyuan_preview
+  name: 圆明三园预览
+  scenes:
+    - ref: yuanmingyuan_preview.yaml    # 圆明园（四景两湖，嵌套总园）
+      x_cm: 0
+      y_cm: 0
+    - ref: ../scenes/hanjingtang.yaml   # 长春园：含经堂轴线（东）
+      x_cm: 16000
+      y_cm: 6000
+    - ref: ../scenes/zhengjuesi.yaml    # 绮春园：正觉寺（东南）
+      x_cm: 9000
+      y_cm: -12000

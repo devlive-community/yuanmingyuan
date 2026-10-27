@@ -1,0 +1,20 @@
+# 春雨轩殿（杏花春馆主殿）· 乾隆二十年添建
+# 依据：乾隆二十年（1755）前部较大改建，添建春雨轩殿（research-xinghua-ruyu.md 1.2，medium）
+# 间数无记载按五楹主殿假设（S-035）
+building:
+  id: xinghua_chunyu_xuan
+  name: 春雨轩殿
+  grade: 大式
+  doukou_grade: 8
+  doukou_cun: 2.5      # 工作假设（S-035）
+  bays: 5
+  depth_bays: 2
+  bay_brackets: 4
+  depth_brackets: 3
+  roof: 卷棚歇山        # 工作假设（S-035）
+  platform_height_chi: 2.5   # 工作假设（S-035）
+  evidence:
+    - source: 书格转录——乾隆二十年添建春雨轩殿、涧壑余清宫门及南山得树亭
+      confidence: medium
+    - source: 工作假设——间数、斗口、屋顶、台基高（S-035）
+      confidence: low

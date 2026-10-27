@@ -1,0 +1,24 @@
+# 上下天光景（后湖北岸） · 场景装配
+#
+# 有据（research-jiuzhou-north.md 3.1/3.2，medium）：主体涵月楼为临湖楼房、两层敞阁、
+# 上下三楹、左右有亭、楼后平安院；前半延伸入水中，左右各水亭水榭、九曲桥连接。
+# 工作假设（S-034）：间数外全部尺寸；"延伸入水"以临岸摆位示意；九曲桥/水榭未建模。
+scene:
+  id: shangtian_guang
+  name: 上下天光
+  buildings:
+    - ref: ../buildings/shangtian_hanyue_lou.yaml
+      role: 涵月楼
+      x_cm: 0
+      y_cm: 0
+      rotation_deg: 0
+    - ref: ../buildings/shangtian_ting_zuo.yaml
+      role: 左亭
+      x_cm: -1500
+      y_cm: -300
+      rotation_deg: 0
+    - ref: ../buildings/shangtian_ting_you.yaml
+      role: 右亭
+      x_cm: 1500
+      y_cm: -300
+      rotation_deg: 0

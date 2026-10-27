@@ -1,0 +1,21 @@
+# 三圣殿（正殿七间、三进深）· 正觉寺正殿
+# 依据：人大清史研究中心——「天王殿之北是三圣殿，该殿为正觉寺的正殿。
+# 三圣殿正殿七间，殿为三进深」（research-zhengjuesi.md 2.2，medium）
+# 屋顶形制无记载，按歇山通例取（S-025）
+building:
+  id: zhengjuesi_sanshengdian
+  name: 正觉寺三圣殿
+  grade: 大式
+  doukou_grade: 8
+  doukou_cun: 2.5      # 工作假设（S-025）
+  bays: 7              # 正殿七间（iqh 文，medium）
+  depth_bays: 3        # 三进深（同上）
+  bay_brackets: 6
+  depth_brackets: 4
+  roof: 歇山            # 工作假设（S-025）
+  platform_height_chi: 2.5   # 工作假设（S-025）
+  evidence:
+    - source: 人大清史研究中心——三圣殿正殿七间、殿为三进深，为正觉寺正殿
+      confidence: medium
+    - source: 工作假设——斗口、屋顶、台基高（S-025）
+      confidence: low

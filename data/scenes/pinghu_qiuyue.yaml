@@ -1,0 +1,19 @@
+# 平湖秋月景（福海西北岸） · 场景装配
+#
+# 有据（research-fuhai-ring.md 2.1/2.2，medium；shuge 转录补充）：福海西北岸，主景居西部；
+# 正殿三楹悬雍正御书匾；后为流水音；两峰插云为五孔桥东侧高台重檐四方亭。
+# 工作假设（S-031）：间数外全部尺寸；流水音、花屿兰皋未建模。
+scene:
+  id: pinghu_qiuyue
+  name: 平湖秋月
+  buildings:
+    - ref: ../buildings/pinghu_zhengdian.yaml
+      role: 平湖秋月正殿
+      x_cm: 0
+      y_cm: 0
+      rotation_deg: 0
+    - ref: ../buildings/pinghu_shuangfeng.yaml
+      role: 两峰插云亭
+      x_cm: 1400
+      y_cm: -600
+      rotation_deg: 0

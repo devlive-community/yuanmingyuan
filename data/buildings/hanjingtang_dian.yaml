@@ -1,0 +1,22 @@
+# 含经堂（七楹）· 长春园主殿
+# 依据：中轴含经堂、蕴真斋、淳化轩构成（research-hanjingtang.md 2.1，medium）；
+# 样式雷图存世（3.1，升级线索）；间数无记载，按七楹主殿通例取（S-024）
+building:
+  id: hanjingtang_dian
+  name: 含经堂
+  grade: 大式
+  doukou_grade: 8
+  doukou_cun: 2.5      # 工作假设（S-024）
+  bays: 7
+  depth_bays: 3
+  bay_brackets: 6
+  depth_brackets: 4
+  roof: 卷棚歇山        # 工作假设（S-024）：无记载
+  platform_height_chi: 2.5   # 工作假设（S-024）
+  evidence:
+    - source: 圆明园管理处/百科——长春园中心岛上含经堂、蕴真斋、淳化轩；乾隆十年始建，归政颐养之所
+      confidence: medium
+    - source: 人大清史研究中心——含经堂、淳化轩一组有样式雷图存世（东路霞翥楼、渊映斋、戏台可见）
+      confidence: medium
+    - source: 工作假设——间数、斗口、屋顶、台基高、殿间距无公开记载（S-024）
+      confidence: low

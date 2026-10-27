@@ -1,0 +1,22 @@
+# 雷峰夕照正殿（涵虚朗鉴）· 福海东岸
+# 依据：涵虚朗鉴即雷峰夕照，仿杭州西湖雷峰夕照；正殿称雷峰[夕照]
+# （research-fuhai-ring.md 4.1/4.2，medium）；间数无记载按三楹假设（S-031）
+building:
+  id: hanxu_leifeng
+  name: 雷峰夕照殿
+  grade: 大式
+  doukou_grade: 8
+  doukou_cun: 2.5      # 工作假设（S-031）
+  bays: 3
+  depth_bays: 2
+  bay_brackets: 3
+  depth_brackets: 3
+  roof: 卷棚歇山        # 工作假设（S-031）
+  platform_height_chi: 2.0   # 工作假设（S-031）
+  evidence:
+    - source: 集古作网——涵虚朗鉴即雷峰夕照，位于福海东岸，仿杭州西湖雷峰夕照
+      confidence: medium
+    - source: wixsite——北面是方壶胜境，南面和接秀山房为邻
+      confidence: medium
+    - source: 工作假设——间数、斗口、屋顶、台基高（S-031）
+      confidence: low

@@ -1,0 +1,29 @@
+# 茹古涵今景（九洲清晏西，东临后湖） · 场景装配
+#
+# 有据（research-xinghua-ruyu.md 2.1/2.2，medium）：乾隆四年前后修建；正殿五楹；
+# 后为韶景轩、茂育斋、竹香斋；皇帝冬季读书之地。
+# 工作假设（S-035）：间数外全部尺寸；39 座游廊体系、重檐大亭、垂花门未建模。
+scene:
+  id: ruyu_hangjin
+  name: 茹古涵今
+  buildings:
+    - ref: ../buildings/ruyu_zhengdian.yaml
+      role: 正殿
+      x_cm: 0
+      y_cm: 0
+      rotation_deg: 0
+    - ref: ../buildings/ruyu_shaojing_xuan.yaml
+      role: 韶景轩
+      x_cm: 0
+      y_cm: 1500
+      rotation_deg: 0
+    - ref: ../buildings/ruyu_maoyu_zhai.yaml
+      role: 茂育斋
+      x_cm: -1400
+      y_cm: -600
+      rotation_deg: 0
+    - ref: ../buildings/ruyu_zhuxiang_zhai.yaml
+      role: 竹香斋
+      x_cm: 1400
+      y_cm: -600
+      rotation_deg: 0

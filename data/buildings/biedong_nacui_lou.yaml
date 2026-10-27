@@ -1,0 +1,20 @@
+# 纳翠楼（别有洞天园中园）· 福海东南隅
+# 依据：别有洞天有纳翠楼、水木清华之阁、时赏斋、石舫（research-fuhai-south.md 2.2，medium）
+building:
+  id: biedong_nacui_lou
+  name: 纳翠楼
+  grade: 大式
+  doukou_grade: 8
+  doukou_cun: 2.5      # 工作假设（S-032）
+  bays: 3
+  depth_bays: 2
+  bay_brackets: 3
+  depth_brackets: 3
+  roof: 卷棚歇山        # 工作假设（S-032）
+  platform_height_chi: 2.0   # 工作假设（S-032）
+  stories: 2           # 楼（通例假设，S-032）
+  evidence:
+    - source: 书格《圆明园四十景图咏》转录——别有洞天有纳翠楼、水木清华之阁、时赏斋、石舫
+      confidence: medium
+    - source: 工作假设——层数、间数、斗口、屋顶、台基高（S-032）
+      confidence: low

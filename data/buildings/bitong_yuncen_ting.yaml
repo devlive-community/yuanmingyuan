@@ -1,0 +1,20 @@
+# 云岑亭（碧桐书院西岩石上）
+# 依据：其西岩石上为云岑亭（research-bitong.md 1.3，medium）
+building:
+  id: bitong_yuncen_ting
+  name: 云岑亭
+  grade: 大式
+  doukou_grade: 8
+  doukou_cun: 2.5      # 工作假设（S-037）
+  bays: 1
+  depth_bays: 1
+  bay_brackets: 3
+  depth_brackets: 3
+  roof: 卷棚歇山        # 工作假设（S-037）
+  enclosure: open     # 亭：四面敞开（通例，S-042）
+  platform_height_chi: 1.0   # 工作假设（S-037）
+  evidence:
+    - source: 书格转录——其西岩石上为云岑亭
+      confidence: medium
+    - source: 工作假设——亭平面、岩石高差、斗口、屋顶、台基高（S-037）
+      confidence: low

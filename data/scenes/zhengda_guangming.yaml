@@ -1,0 +1,36 @@
+# 正大光明景 · 场景装配（主殿＋东西配殿＋出入贤良门）
+#
+# 有据的方位关系（《日下旧闻考》卷八十 p.344，high；管理处论文 2011，medium）：
+#   - 出入贤良门内为正大光明殿（门南、殿北，坐北朝南）
+#   - 东西配殿各五楹（列于殿之东西，面朝院落）
+#   - 殿后为寿山、东为洞明堂（本步未建模）
+#
+# 间距尺寸**无记载**，下列坐标均为工作假设（speculative S-018）：
+#   - 配殿与主殿间距 600 cm
+#   - 庭院进深（主殿前檐至门殿后檐）2000 cm
+# 坐标系：Z 向上、1 单位 = 1 cm；X 面阔、Y 进深、正面朝 −Y（ADR-0001）。
+# 旋转：0 = 面南；90 = 面东（西配殿朝院落）；-90(=270) = 面西（东配殿）。
+scene:
+  id: zhengda_guangming
+  name: 正大光明
+  buildings:
+    - ref: ../buildings/zhengda_guangming.yaml
+      role: 主殿
+      x_cm: 0
+      y_cm: 0
+      rotation_deg: 0
+    - ref: ../buildings/peidian_wuying.yaml
+      role: 西配殿
+      x_cm: -2860
+      y_cm: 0
+      rotation_deg: 90
+    - ref: ../buildings/peidian_wuying.yaml
+      role: 东配殿
+      x_cm: 2860
+      y_cm: 0
+      rotation_deg: -90
+    - ref: ../buildings/churu_xianliang_men.yaml
+      role: 出入贤良门
+      x_cm: 0
+      y_cm: -2974
+      rotation_deg: 0

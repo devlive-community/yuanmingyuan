@@ -1,0 +1,29 @@
+# 碧桐书院景（后湖东北角） · 三进院落装配（南→北）
+#
+# 有据（research-bitong.md 1.2/1.3，medium）：前殿三楹，中殿、后殿各五楹（悬雍正匾）；
+# 南邻天然图画，西隔水望慈云普护；西岩石上云岑亭。
+# 工作假设（S-037）：间数外全部尺寸；院墙/院门、梧桐植被、山石未建模。
+scene:
+  id: bitong_shuyuan
+  name: 碧桐书院
+  buildings:
+    - ref: ../buildings/bitong_qiandian.yaml
+      role: 前殿
+      x_cm: 0
+      y_cm: -1600
+      rotation_deg: 0
+    - ref: ../buildings/bitong_zhongdian.yaml
+      role: 中殿
+      x_cm: 0
+      y_cm: 0
+      rotation_deg: 0
+    - ref: ../buildings/bitong_houdian.yaml
+      role: 后殿
+      x_cm: 0
+      y_cm: 1600
+      rotation_deg: 0
+    - ref: ../buildings/bitong_yuncen_ting.yaml
+      role: 云岑亭
+      x_cm: -1500
+      y_cm: 400
+      rotation_deg: 0

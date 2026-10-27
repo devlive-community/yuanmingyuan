@@ -1,0 +1,19 @@
+# 碧桐书院中殿（五楹，悬雍正御书匾）· 三进院落第二进
+# 依据：中殿五楹，正殿檐下悬雍正御书"碧桐书院"匾（research-bitong.md 1.2，medium）
+building:
+  id: bitong_zhongdian
+  name: 碧桐书院中殿
+  grade: 大式
+  doukou_grade: 8
+  doukou_cun: 2.5      # 工作假设（S-037）
+  bays: 5
+  depth_bays: 2
+  bay_brackets: 4
+  depth_brackets: 3
+  roof: 歇山            # 工作假设（S-037）
+  platform_height_chi: 2.0   # 工作假设（S-037）
+  evidence:
+    - source: 书格转录——中殿五楹，正殿檐下悬雍正御书"碧桐书院"匾，正殿内设床、炕
+      confidence: medium
+    - source: 工作假设——斗口、屋顶、台基高（S-037）
+      confidence: low

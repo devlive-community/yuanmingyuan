@@ -1,0 +1,28 @@
+# 九洲清晏景 · 场景装配（中轴三殿：圆明园殿 → 奉三无私殿 → 九洲清晏殿）
+#
+# 有据（research-jiuzhou-qingyan.md 1.1/2.1，medium–high）：
+#   - 位于前、后湖之间的岛上，坐北朝南，中轴自南而北：圆明园殿（五楹）→
+#     奉三无私殿（七楹）→ 九洲清晏殿（七楹）
+#   - 东为天地一家春、西为乐安和（本步未建模）
+#
+# 工作假设（speculative S-019）：三殿间距 800 cm（院落进深无记载）；
+# 坐标系：Z 向上、1 单位 = 1 cm；X 面阔、Y 进深、正面朝 −Y（南）。
+scene:
+  id: jiuzhou_qingyan
+  name: 九洲清晏
+  buildings:
+    - ref: ../buildings/yuanmingyuan_dian.yaml
+      role: 圆明园殿
+      x_cm: 0
+      y_cm: 0
+      rotation_deg: 0
+    - ref: ../buildings/fengsanwusi_dian.yaml
+      role: 奉三无私殿
+      x_cm: 0
+      y_cm: 1612
+      rotation_deg: 0
+    - ref: ../buildings/jiuzhou_qingyan_dian.yaml
+      role: 九洲清晏殿
+      x_cm: 0
+      y_cm: 3492
+      rotation_deg: 0

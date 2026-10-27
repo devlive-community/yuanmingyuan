@@ -1,0 +1,63 @@
+# 万方安和景 · 场景装配（卍字形殿：中心 3×3 ＋ 4 接间 1×1 ＋ 4 支路 5×1，共 33 间）
+#
+# 有据（research-wanfang-anhe.md）：
+#   - 卍字形平面、卷棚顶、四支路各面阔 5 间、中央十字 13 间、共 33 间（故宫院刊 2018，medium）
+#   - 始建于雍正初年（原称万字房）；卍字形汉白玉基座建于水中（百科，medium）
+#
+# 工作假设（speculative S-021）：
+#   - 卍形以 9 个矩形模块拼合近似；各模块坐标与拆分位置无原图档依据
+#   - 各模块屋面独立卷棚歇山，未做勾连搭搭接；台基相接处取齐边
+#   - 水面为示意平面（非史料形体）；汉白玉基座未做材质区分
+#
+# 旋臂方向（自上而下看）：北支东偏、东支南偏、南支西偏、西支北偏（卍）。
+# 坐标系：Z 向上、1 单位 = 1 cm；台基边缘相接（gap 0）。
+scene:
+  id: wanfang_anhe
+  name: 万方安和
+  water: true
+  buildings:
+    - ref: ../buildings/wanfang_center.yaml
+      role: 中心殿
+      x_cm: 0
+      y_cm: 0
+      rotation_deg: 0
+    - ref: ../buildings/wanfang_stub.yaml
+      role: 北接间
+      x_cm: 316
+      y_cm: 880
+      rotation_deg: 0
+    - ref: ../buildings/wanfang_wing.yaml
+      role: 北支路
+      x_cm: 316
+      y_cm: 2076
+      rotation_deg: 90
+    - ref: ../buildings/wanfang_stub.yaml
+      role: 东接间
+      x_cm: 924
+      y_cm: -272
+      rotation_deg: 0
+    - ref: ../buildings/wanfang_wing.yaml
+      role: 东支路
+      x_cm: 2120
+      y_cm: -272
+      rotation_deg: 0
+    - ref: ../buildings/wanfang_stub.yaml
+      role: 南接间
+      x_cm: -316
+      y_cm: -880
+      rotation_deg: 0
+    - ref: ../buildings/wanfang_wing.yaml
+      role: 南支路
+      x_cm: -316
+      y_cm: -2076
+      rotation_deg: 270
+    - ref: ../buildings/wanfang_stub.yaml
+      role: 西接间
+      x_cm: -924
+      y_cm: 272
+      rotation_deg: 0
+    - ref: ../buildings/wanfang_wing.yaml
+      role: 西支路
+      x_cm: -2120
+      y_cm: 272
+      rotation_deg: 0

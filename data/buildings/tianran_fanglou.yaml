@@ -1,0 +1,20 @@
+# 天然图画方楼（主体建筑）· 后湖东岸
+# 依据：主体建筑为一方楼（research-louyue-tianran.md 2.1，medium）；层数按楼通例假设（S-036）
+building:
+  id: tianran_fanglou
+  name: 天然图画方楼
+  grade: 大式
+  doukou_grade: 8
+  doukou_cun: 2.5      # 工作假设（S-036）
+  bays: 3
+  depth_bays: 3
+  bay_brackets: 3
+  depth_brackets: 3
+  roof: 卷棚歇山        # 工作假设（S-036）
+  platform_height_chi: 2.5   # 工作假设（S-036）
+  stories: 2           # 方楼（楼通例假设，S-036）
+  evidence:
+    - source: 书格转录——主体建筑为一方楼；院有翠竹万竿、双桐相映
+      confidence: medium
+    - source: 工作假设——层数、斗口、屋顶、台基高（S-036）
+      confidence: low

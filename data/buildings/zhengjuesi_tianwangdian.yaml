@@ -1,0 +1,20 @@
+# 天王殿 · 正觉寺中轴第二进
+# 依据：中轴构成有据（文物局复建范围，medium）；间数无记载按三间天王殿通例（S-025）
+building:
+  id: zhengjuesi_tianwangdian
+  name: 正觉寺天王殿
+  grade: 大式
+  doukou_grade: 8
+  doukou_cun: 2.5      # 工作假设（S-025）
+  bays: 3
+  depth_bays: 2
+  bay_brackets: 3
+  depth_brackets: 3
+  roof: 歇山            # 工作假设（S-025）
+  enclosure: gate     # 门殿：前后檐板门、余为墙（通例假设，S-042）
+  platform_height_chi: 1.5   # 工作假设（S-025）
+  evidence:
+    - source: 北京市文物局——复建范围含天王殿（中轴构成）
+      confidence: medium
+    - source: 工作假设——间数、斗口、屋顶、台基高（S-025）
+      confidence: low

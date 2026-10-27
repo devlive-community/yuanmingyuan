@@ -1,0 +1,23 @@
+# 九洲清晏殿（七楹）· 九洲清晏景区中轴第三殿（最北，寝宫正殿）
+# 依据：九洲清晏殿七楹（维基/四十景图咏简介转录多源一致，research-jiuzhou-qingyan.md 2.1）
+# 注意：该殿历史上形制历经数次变化（research 4.1）；本步几何为通说简化，
+# 乾隆鼎盛期（项目目标期）形制待样式雷乾隆朝图档考订。其余参数为工作假设（S-019）。
+building:
+  id: jiuzhou_qingyan_dian
+  name: 九洲清晏殿
+  grade: 大式
+  doukou_grade: 8
+  doukou_cun: 2.5      # 工作假设（S-019）
+  bays: 7
+  depth_bays: 3
+  bay_brackets: 6
+  depth_brackets: 4
+  roof: 卷棚歇山        # 工作假设（S-019）：无记载
+  platform_height_chi: 2.5   # 工作假设（S-019）
+  evidence:
+    - source: 维基百科/《圆明园四十景图咏》简介转录：「九州清晏殿七楹」
+      confidence: high
+    - source: 形制沿革风险——该殿历经几个时期形制变化，目标期（乾隆鼎盛）形制待考（research 4.1）
+      confidence: medium
+    - source: 工作假设——斗口、屋顶、台基高无本殿记载（S-019）
+      confidence: low

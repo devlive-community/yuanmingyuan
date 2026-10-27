@@ -1,0 +1,29 @@
+# 天然图画景（后湖东岸，镂月开云北） · 场景装配
+#
+# 有据（research-louyue-tianran.md 2.1/2.2/2.3，medium）：方楼为主体；临湖有朗吟阁、
+# 竹薖楼；北有五福堂、竹深荷静。
+# 工作假设（S-036）：层数/间数外全部尺寸；植被（翠竹/双桐/玉兰）未建模。
+scene:
+  id: tianran_tuhua
+  name: 天然图画
+  buildings:
+    - ref: ../buildings/tianran_fanglou.yaml
+      role: 方楼
+      x_cm: 0
+      y_cm: 0
+      rotation_deg: 0
+    - ref: ../buildings/tianran_lanyin_ge.yaml
+      role: 朗吟阁
+      x_cm: 0
+      y_cm: -1300
+      rotation_deg: 0
+    - ref: ../buildings/tianran_zhukao_lou.yaml
+      role: 竹薖楼
+      x_cm: 1400
+      y_cm: -1300
+      rotation_deg: 0
+    - ref: ../buildings/tianran_wufu_tang.yaml
+      role: 五福堂
+      x_cm: 0
+      y_cm: 1400
+      rotation_deg: 0

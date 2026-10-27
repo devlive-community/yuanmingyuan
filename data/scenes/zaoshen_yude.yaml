@@ -1,0 +1,23 @@
+# 澡身浴德景（福海西岸南侧） · 场景装配
+#
+# 有据（research-fuhai-ring.md 1.2，medium）：正殿澄虚榭三楹；南为含清晖；西南为静香书馆。
+# 工作假设（S-031）：间数外全部尺寸；含妙识、北渡河诸胜（望瀛洲/溪风松月/深柳读书堂）未建模。
+scene:
+  id: zaoshen_yude
+  name: 澡身浴德
+  buildings:
+    - ref: ../buildings/zaoshen_chengxuxie.yaml
+      role: 澄虚榭
+      x_cm: 0
+      y_cm: 0
+      rotation_deg: 0
+    - ref: ../buildings/zaoshen_hanqinghui.yaml
+      role: 含清晖
+      x_cm: 0
+      y_cm: -1200
+      rotation_deg: 0
+    - ref: ../buildings/zaoshen_jingxiang.yaml
+      role: 静香书馆
+      x_cm: -1400
+      y_cm: -600
+      rotation_deg: 0

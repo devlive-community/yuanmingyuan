@@ -1,0 +1,38 @@
+# 生成器能力演示（非复原数据，不进入三园总图）：八种屋顶类型对照（docs/speculative.md S-038）
+# 第一排：歇山 / 卷棚歇山 / 庑殿 / 攒尖；第二排：硬山 / 卷棚硬山 / 悬山 / 卷棚悬山
+scene:
+  id: sample_roof_types
+  name: 屋顶类型样例
+  buildings:
+    - ref: buildings/roof_xieshan.yaml
+      role: 歇山
+      x_cm: 0
+      y_cm: 0
+    - ref: buildings/roof_juanpeng_xieshan.yaml
+      role: 卷棚歇山
+      x_cm: 2400
+      y_cm: 0
+    - ref: buildings/roof_wudian.yaml
+      role: 庑殿
+      x_cm: 4800
+      y_cm: 0
+    - ref: buildings/roof_cuanjian.yaml
+      role: 攒尖
+      x_cm: 7200
+      y_cm: 0
+    - ref: buildings/roof_yingshan.yaml
+      role: 硬山
+      x_cm: 0
+      y_cm: -2200
+    - ref: buildings/roof_juanpeng_yingshan.yaml
+      role: 卷棚硬山
+      x_cm: 2400
+      y_cm: -2200
+    - ref: buildings/roof_xuanshan.yaml
+      role: 悬山
+      x_cm: 4800
+      y_cm: -2200
+    - ref: buildings/roof_juanpeng_xuanshan.yaml
+      role: 卷棚悬山
+      x_cm: 7200
+      y_cm: -2200

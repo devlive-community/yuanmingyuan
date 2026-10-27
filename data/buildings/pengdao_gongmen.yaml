@@ -1,0 +1,21 @@
+# 蓬岛瑶台宫门（三开间，覆琉璃瓦）· 主岛南入口
+# 依据：宫门 3 间、大门三开间覆琉璃瓦（research-pengdao-yaotai.md 2.1/2.3，medium）
+# 琉璃瓦色无记载（黄/绿待考），预览暂用灰瓦（S-030）
+building:
+  id: pengdao_gongmen
+  name: 蓬岛瑶台宫门
+  grade: 大式
+  doukou_grade: 8
+  doukou_cun: 2.5      # 工作假设（S-030）
+  bays: 3
+  depth_bays: 2
+  bay_brackets: 3
+  depth_brackets: 3
+  roof: 歇山            # 工作假设（S-030）
+  enclosure: gate     # 门殿：前后檐板门、余为墙（通例假设，S-042）
+  platform_height_chi: 1.5   # 工作假设（S-030）
+  evidence:
+    - source: 集古作网/可名百科——宫门 3 间；大门三开间覆琉璃瓦
+      confidence: medium
+    - source: 工作假设——间数外全部尺寸与瓦色（S-030）
+      confidence: low

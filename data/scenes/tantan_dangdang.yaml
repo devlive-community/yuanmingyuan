@@ -1,0 +1,29 @@
+# 坦坦荡荡景（后湖西岸，金鱼池） · 场景装配
+#
+# 有据（research-jiuzhou-north.md 2.1/2.2，medium）：坦坦荡荡殿三楹；前素心堂、后光风霁月、
+# 东北知鱼亭，凿池观鱼（仿花港观鱼）。
+# 工作假设（S-034）：间数外全部尺寸；凿池未建模。
+scene:
+  id: tantan_dangdang
+  name: 坦坦荡荡
+  buildings:
+    - ref: ../buildings/tantan_dian.yaml
+      role: 坦坦荡荡殿
+      x_cm: 0
+      y_cm: 0
+      rotation_deg: 0
+    - ref: ../buildings/tantan_suxin.yaml
+      role: 素心堂
+      x_cm: 0
+      y_cm: -1300
+      rotation_deg: 0
+    - ref: ../buildings/tantan_guangfeng.yaml
+      role: 光风霁月
+      x_cm: 0
+      y_cm: 1300
+      rotation_deg: 0
+    - ref: ../buildings/tantan_zhiyu.yaml
+      role: 知鱼亭
+      x_cm: 1400
+      y_cm: 700
+      rotation_deg: 0

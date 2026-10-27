@@ -1,0 +1,19 @@
+# 接秀山房景（福海东南岸/东岸） · 场景装配
+#
+# 有据（research-fuhai-ring.md 3.1，low–medium）：福海东岸，正殿三楹；
+# 旁有琴趣轩、寻云楼、澄练楼、怡然书屋等。
+# 工作假设（S-031）：间数外全部尺寸；琴趣轩、寻云楼、怡然书屋未建模。
+scene:
+  id: jiexiu_shanfang
+  name: 接秀山房
+  buildings:
+    - ref: ../buildings/jiexiu_zhengdian.yaml
+      role: 接秀山房正殿
+      x_cm: 0
+      y_cm: 0
+      rotation_deg: 0
+    - ref: ../buildings/jiexiu_chenglian_lou.yaml
+      role: 澄练楼
+      x_cm: 1400
+      y_cm: -800
+      rotation_deg: 0

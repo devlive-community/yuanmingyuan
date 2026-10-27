@@ -1,0 +1,19 @@
+# 五福堂（天然图画，堂阴有御园玉兰之祖）
+# 依据：楼北为朗吟楼、五福堂、竹深荷静；五福堂阴有玉兰（research-louyue-tianran.md 2.3，medium）
+building:
+  id: tianran_wufu_tang
+  name: 五福堂
+  grade: 大式
+  doukou_grade: 8
+  doukou_cun: 2.5      # 工作假设（S-036）
+  bays: 3
+  depth_bays: 2
+  bay_brackets: 3
+  depth_brackets: 3
+  roof: 卷棚歇山        # 工作假设（S-036）
+  platform_height_chi: 1.5   # 工作假设（S-036）
+  evidence:
+    - source: 书格转录——楼北为朗吟楼、五福堂、竹深荷静；五福堂阴有玉兰
+      confidence: medium
+    - source: 工作假设——间数、斗口、屋顶、台基高（S-036）
+      confidence: low

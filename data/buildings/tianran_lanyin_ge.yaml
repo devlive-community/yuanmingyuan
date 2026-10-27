@@ -1,0 +1,20 @@
+# 朗吟阁（天然图画临湖楼）· 登楼可远眺西山
+# 依据：临湖建有朗吟阁和竹薖楼（research-louyue-tianran.md 2.2，medium）
+building:
+  id: tianran_lanyin_ge
+  name: 朗吟阁
+  grade: 大式
+  doukou_grade: 8
+  doukou_cun: 2.5      # 工作假设（S-036）
+  bays: 3
+  depth_bays: 2
+  bay_brackets: 3
+  depth_brackets: 3
+  roof: 卷棚歇山        # 工作假设（S-036）
+  platform_height_chi: 2.0   # 工作假设（S-036）
+  stories: 2           # 阁/楼（medium：临湖楼）
+  evidence:
+    - source: 书格转录——临湖建有朗吟阁和竹薖楼，登楼可远眺西山群岚
+      confidence: medium
+    - source: 工作假设——层数、间数、斗口、屋顶、台基高（S-036）
+      confidence: low

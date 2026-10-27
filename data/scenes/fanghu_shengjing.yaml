@@ -1,0 +1,40 @@
+# 方壶胜境景 · 场景装配（三重檐亭山字形入湖＋哕鸾殿＋琼华楼）
+#
+# 有据（research-fanghu-shengjing.md）：
+#   - 福海东北岸；前部三座重檐大亭呈"山"字形伸入湖中，汉白玉底座（medium）
+#   - 正殿二层楼宇前后各五楹：前哕鸾殿、北琼华楼，左右配楼，天桥相连（medium）
+#   - 亭名：迎薰亭、集瑞亭、凝祥亭（乾隆五年御书匾文）
+#
+# 工作假设（speculative S-027）：各模块间数/斗口/台基高/腰檐尺寸、亭与殿间距；
+# 左右配楼、九座楼阁与佛像、三潭印月等未建模；水面为示意。
+# 坐标系：Z 向上、1 单位 = 1 cm；正面朝 −Y（南，亭伸向湖面）。
+scene:
+  id: fanghu_shengjing
+  name: 方壶胜境
+  water: true
+  buildings:
+    - ref: ../buildings/fanghu_kualun_dian.yaml
+      role: 哕鸾殿
+      x_cm: 0
+      y_cm: 0
+      rotation_deg: 0
+    - ref: ../buildings/fanghu_qionghua_lou.yaml
+      role: 琼华楼
+      x_cm: 0
+      y_cm: 1180
+      rotation_deg: 0
+    - ref: ../buildings/fanghu_ting.yaml
+      role: 迎薰亭
+      x_cm: 0
+      y_cm: -1200
+      rotation_deg: 0
+    - ref: ../buildings/fanghu_ting.yaml
+      role: 集瑞亭
+      x_cm: -1576
+      y_cm: -700
+      rotation_deg: 0
+    - ref: ../buildings/fanghu_ting.yaml
+      role: 凝祥亭
+      x_cm: 1576
+      y_cm: -700
+      rotation_deg: 0

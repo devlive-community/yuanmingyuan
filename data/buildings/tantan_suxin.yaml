@@ -1,0 +1,19 @@
+# 素心堂（坦坦荡荡前堂）· 进膳堂屋
+# 依据：前为素心堂（research-jiuzhou-north.md 2.2，medium）
+building:
+  id: tantan_suxin
+  name: 素心堂
+  grade: 大式
+  doukou_grade: 8
+  doukou_cun: 2.5      # 工作假设（S-034）
+  bays: 3
+  depth_bays: 2
+  bay_brackets: 3
+  depth_brackets: 3
+  roof: 卷棚歇山        # 工作假设（S-034）
+  platform_height_chi: 1.5   # 工作假设（S-034）
+  evidence:
+    - source: 书格转录——前为素心堂
+      confidence: medium
+    - source: 工作假设——间数、斗口、屋顶、台基高（S-034）
+      confidence: low

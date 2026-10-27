@@ -1,0 +1,19 @@
+# 蓬岛瑶台正殿（七楹）· 主岛正殿
+# 依据：正殿 7 间/七楹（research-pengdao-yaotai.md 2.1/2.2，medium）
+building:
+  id: pengdao_zhengdian
+  name: 蓬岛瑶台正殿
+  grade: 大式
+  doukou_grade: 8
+  doukou_cun: 2.5      # 工作假设（S-030）
+  bays: 7
+  depth_bays: 3
+  bay_brackets: 6
+  depth_brackets: 4
+  roof: 歇山            # 工作假设（S-030）
+  platform_height_chi: 2.5   # 工作假设（S-030）
+  evidence:
+    - source: 集古作网/搜狐/可名百科——正殿 7 间（七楹）
+      confidence: medium
+    - source: 工作假设——斗口、屋顶、台基高（S-030）
+      confidence: low

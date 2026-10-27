@@ -1,0 +1,21 @@
+# 出入贤良门（二宫门）· 五间门殿
+# 依据：圆明园管理处论文（2011）——南向门殿五间、八檩卷棚歇山顶、雍正御书匾（medium）。
+# 斗口与台基高无记载，为工作假设（speculative S-018）。
+building:
+  id: churu_xianliang_men
+  name: 出入贤良门
+  grade: 大式
+  doukou_grade: 8
+  doukou_cun: 2.5      # 工作假设（S-018）
+  bays: 5
+  depth_bays: 2
+  bay_brackets: 4
+  depth_brackets: 3
+  roof: 卷棚歇山        # 八檩卷棚歇山（medium，管理处论文 2011）
+  enclosure: gate     # 门殿：前后檐板门、余为墙（通例假设，S-042）
+  platform_height_chi: 2.0   # 工作假设（S-018）
+  evidence:
+    - source: 圆明园管理处论文（2011）——正大光明景「南向门殿五间、八檩卷棚歇山顶」，雍正御书匾
+      confidence: medium
+    - source: 工作假设——斗口、台基高无记载（S-018）
+      confidence: low

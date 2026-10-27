@@ -1,0 +1,20 @@
+# 畅襟楼（三开间楼）· 蓬岛瑶台主岛殿前东列
+# 依据：殿前东列畅襟楼/东为三开间的畅襟楼（research-pengdao-yaotai.md 2.1/2.3，medium）
+building:
+  id: pengdao_changjin_lou
+  name: 畅襟楼
+  grade: 大式
+  doukou_grade: 8
+  doukou_cun: 2.5      # 工作假设（S-030）
+  bays: 3
+  depth_bays: 2
+  bay_brackets: 3
+  depth_brackets: 3
+  roof: 卷棚歇山        # 工作假设（S-030）
+  platform_height_chi: 2.0   # 工作假设（S-030）
+  stories: 2           # 楼（三开间楼，medium）
+  evidence:
+    - source: 集古作网/可名百科——殿前东列畅襟楼（三开间楼）
+      confidence: medium
+    - source: 工作假设——斗口、屋顶、台基高、楼层体量（S-030）
+      confidence: low

@@ -1,0 +1,20 @@
+# 澄虚榭（澡身浴德正殿，三楹）· 福海西岸
+# 依据：正殿澄虚榭三楹（research-fuhai-ring.md 1.2，medium）；其余为工作假设（S-031）
+building:
+  id: zaoshen_chengxuxie
+  name: 澄虚榭
+  grade: 大式
+  doukou_grade: 8
+  doukou_cun: 2.5      # 工作假设（S-031）
+  bays: 3
+  depth_bays: 2
+  bay_brackets: 3
+  depth_brackets: 3
+  roof: 卷棚歇山        # 工作假设（S-031）
+  enclosure: surround # 榭：四面槛窗（通例假设，S-042）
+  platform_height_chi: 2.0   # 工作假设（S-031）
+  evidence:
+    - source: 知乎《铭记历史》——澡身浴德正殿澄虚榭，三楹
+      confidence: medium
+    - source: 工作假设——斗口、屋顶、台基高（S-031）
+      confidence: low

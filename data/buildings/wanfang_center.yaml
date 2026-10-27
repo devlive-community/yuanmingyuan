@@ -1,0 +1,24 @@
+# 万方安和 · 中央十字殿（3×3 间）
+# 依据：故宫博物院院刊《万方安和九咏空间再探》——卍字形平面、卷棚顶，
+# 四支路各面阔 5 间，中央十字部分 13 间，共 33 间（research-wanfang-anhe.md）
+# 拆解：中央十字 13 间 = 中心 3×3（9 间）＋四个 1×1 接间（4 间）；本文件为中心 3×3。
+building:
+  id: wanfang_center
+  name: 万方安和中央殿（3×3）
+  grade: 大式
+  doukou_grade: 8
+  doukou_cun: 2.5      # 工作假设（S-021）
+  bays: 3
+  depth_bays: 3
+  bay_brackets: 4
+  depth_brackets: 3
+  roof: 卷棚歇山        # 卷棚顶（院刊文，medium）
+  enclosure: surround # 水中殿宇四面装修（工作假设，S-042）
+  platform_height_chi: 2.0   # 工作假设（S-021；汉白玉基座高度无尺寸记载）
+  evidence:
+    - source: 故宫博物院院刊《万方安和九咏空间再探》（2018）——卍字形平面、卷棚顶、四支路各面阔5间、中央十字部分13间、共33间
+      confidence: medium
+    - source: 百度百科——始建于雍正初年，原称万字房，卍字形汉白玉基座建于水中，上筑三十三间
+      confidence: medium
+    - source: 工作假设——斗口、台基高、中央十字的模块拆分方式与坐标（S-021）
+      confidence: low

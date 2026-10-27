@@ -1,0 +1,22 @@
+# 勤政亲贤殿（五楹）· 勤政亲贤景主殿（南）
+# 依据：殿为五楹/殿堂 5 间（维基+知乎多源一致，research-qinzheng-qinxian.md 2.1/2.2）
+# 雍正三年建、五年始称勤政亲贤（medium）；其余参数为工作假设（S-020）
+building:
+  id: qinzheng_qinxian_dian
+  name: 勤政亲贤殿
+  grade: 大式
+  doukou_grade: 8
+  doukou_cun: 2.5      # 工作假设（S-020）
+  bays: 5
+  depth_bays: 2
+  bay_brackets: 4
+  depth_brackets: 3
+  roof: 卷棚歇山        # 工作假设（S-020）：无记载
+  platform_height_chi: 2.5   # 工作假设（S-020）
+  evidence:
+    - source: 维基百科「殿为五楹」；知乎「有殿堂 5 间，北设宝座，南为窗」——多源一致
+      confidence: high
+    - source: 清代皇家园林研究中心——皇帝日常办公之所，相当于大内养心殿；雍正三年建，五年始称勤政亲贤
+      confidence: medium
+    - source: 工作假设——斗口、屋顶、台基高无本殿记载（S-020）
+      confidence: low

@@ -1,0 +1,29 @@
+# 慈云普护景（后湖正北，寺庙园林） · 场景装配
+#
+# 有据（research-jiuzhou-north.md 1.1/1.2，medium）：前殿临后湖三楹（欢喜佛场）；
+# 北为楼宇三楹（上观音下关帝）；东龙王殿；自鸣钟楼高三丈。
+# 工作假设（S-034）：间数外全部尺寸；钟楼以 1×1 两层体量近似。
+scene:
+  id: ciyun_puhu
+  name: 慈云普护
+  buildings:
+    - ref: ../buildings/ciyun_qianfochang.yaml
+      role: 欢喜佛场
+      x_cm: 0
+      y_cm: 0
+      rotation_deg: 0
+    - ref: ../buildings/ciyun_lou.yaml
+      role: 慈云楼
+      x_cm: 0
+      y_cm: 1300
+      rotation_deg: 0
+    - ref: ../buildings/ciyun_longwang.yaml
+      role: 龙王殿
+      x_cm: 1500
+      y_cm: 600
+      rotation_deg: 0
+    - ref: ../buildings/ciyun_zhonglou.yaml
+      role: 自鸣钟楼
+      x_cm: -1500
+      y_cm: 600
+      rotation_deg: 0
